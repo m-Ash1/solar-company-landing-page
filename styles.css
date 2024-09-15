@@ -233,7 +233,7 @@ nav .cta .number {
 /* Section 3 */
 
 .section-3 {
-  background-image: url("/images/8116\ 1.png");
+  background-image: url("/images/bg-section3.png");
   background-size: cover;
   padding: 10rem 0;
 }
@@ -258,6 +258,13 @@ nav .cta .number {
   font-size: 1rem;
 }
 /*? Media Quries */
+
+@media screen and (max-width: 1360px) {
+  .container {
+    padding: 0 2rem;
+    max-width: 970px;
+  }
+}
 
 @media screen and (max-width: 480px) {
   .container {
@@ -335,7 +342,7 @@ nav .cta .number {
   .section-2 .wrapper .right .overlay {
     display: none;
   }
-  .section-3{
+  .section-3 {
     padding: 6rem 0;
   }
   .section-3 .container {
@@ -344,10 +351,10 @@ nav .cta .number {
     text-align: center;
   }
 
-  .section-3 h3{
+  .section-3 h3 {
     font-size: 2rem;
   }
-  .section-3 p{
+  .section-3 p {
     font-size: 1.1rem;
   }
   .section-3 .container button {
