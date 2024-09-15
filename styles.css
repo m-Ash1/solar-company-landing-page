@@ -1,0 +1,356 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-color: #0b9586;
+  --bg-color: #fff;
+  --accent-color: #ffbb1c;
+  --main-text: #101828;
+  --side-text: #3cab90;
+  --number-color: #84bd3a;
+  --footer-color: #283646;
+}
+
+/* Global Styles */
+
+button {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.8rem 3rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 1.8px;
+}
+
+button.main {
+  background-color: var(--side-text);
+}
+button.main:hover {
+  background-color: var(--side-text);
+}
+button.secondary {
+  background-color: var(--accent-color);
+  color: #101828;
+}
+
+.container {
+  padding: 0 1rem;
+  max-width: 1570px;
+  margin: 0 auto;
+}
+
+/** Nav Styles */
+nav {
+  background-color: var(--main-color);
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+}
+nav .links {
+  display: flex;
+  gap: 5rem;
+}
+nav .links ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  align-items: center;
+}
+
+nav .links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 1rem 0;
+  padding: 8px 25px;
+  border-radius: 5px;
+  border-bottom: 0px solid #07645a;
+  top: 0;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+nav .links ul li a:hover {
+  background-color: #0a8c7e;
+  border-bottom: 4px solid #07645a;
+  top: -3px;
+}
+
+nav .cta {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+nav .cta .label {
+  display: flex;
+  justify-content: end;
+}
+nav .cta .number {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/** Section 1 */
+.section-1 {
+  background-image: url("./images/solar-panels-meadow\ 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-1 .container {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem 1rem 12rem;
+}
+
+.section-1 .slide {
+  margin: 0 0 8rem 0;
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.section-1 .slide .num {
+  color: white;
+  font-size: 1.3rem;
+}
+
+.section-1 .slide .loader-body {
+  width: 300px;
+  height: 5px;
+  background-color: #575757;
+}
+.section-1 .slide .loader-body .loader {
+  height: 100%;
+  width: 40%;
+  background-color: var(--bg-color);
+}
+
+.section-1 .main h1 {
+  color: white;
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 2.3rem;
+}
+.section-1 .main p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  line-height: 30px;
+}
+
+.section-1 .btn-group {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/** Section 2 */
+
+.section-2 {
+  background-color: var(--bg-color);
+  padding: 6rem 1rem;
+}
+.section-2 .wrapper {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+.section-2 .wrapper .left {
+  width: 50%;
+}
+.section-2 .wrapper .right {
+  position: relative;
+  width: 40%;
+}
+.section-2 .wrapper h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--main-text);
+  margin-bottom: 2rem;
+}
+.section-2 .wrapper p {
+  font-size: 1.2rem;
+  color: #475467;
+  margin-bottom: 50px;
+  line-height: 32px;
+}
+.section-2 .wrapper .right img {
+  width: 100%;
+}
+
+.section-2 .wrapper .right .overlay {
+  position: absolute;
+  bottom: 40px;
+  left: -50px;
+  width: 266px;
+  height: 208px;
+  padding: 24px 30px 24px 30px;
+  border-radius: 12px;
+  background-color: var(--accent-color);
+  z-index: 1;
+}
+.section-2 .wrapper .right .overlay img {
+  width: 50%;
+}
+.section-2 .wrapper .list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  list-style-type: none;
+}
+.section-2 .wrapper .list li .number {
+  font-size: 1.2rem;
+  letter-spacing: 2.2px;
+  font-weight: 500;
+  color: var(--number-color);
+}
+.section-2 .wrapper .list li .text {
+  font-size: 1.4rem;
+  color: var(--main-text);
+  font-weight: bold;
+}
+
+/* Section 3 */
+
+.section-3 {
+  background-image: url("/images/8116\ 1.png");
+  background-size: cover;
+  padding: 10rem 0;
+}
+
+.section-3 .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.section-3 h3 {
+  font-size: 2.5rem;
+  color: white;
+}
+.section-3 p {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.section-3 .container button {
+  align-self: flex-start;
+  font-size: 1rem;
+}
+/*? Media Quries */
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 2rem;
+  }
+
+  .btn-group {
+    flex-direction: column;
+    gap: 0.4rem !important;
+  }
+  .container {
+    padding: 1rem 1rem !important;
+  }
+  nav .container {
+    flex-direction: column;
+  }
+  nav .links {
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+  }
+  nav .links ul {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  nav .links ul li a {
+    font-size: 1rem;
+  }
+  nav .cta {
+    display: none;
+  }
+  .section-1 .slide {
+    padding: 3rem 1rem;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+  .section-1 .main h1 {
+    font-size: 3rem;
+  }
+  .section-1 .main p {
+    font-size: 1rem;
+  }
+
+  .section-2 {
+    padding: 1rem;
+  }
+  .section-2 .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section-2 .wrapper h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  .section-2 .wrapper p {
+    font-size: 1rem;
+    margin-bottom: 25px;
+  }
+
+  .section-2 .wrapper .left {
+    width: 100%;
+  }
+  .section-2 .wrapper .right {
+    position: relative;
+    width: 100%;
+  }
+  .section-2 .wrapper .list li .number {
+    font-size: 1rem;
+  }
+  .section-2 .wrapper .list li .text {
+    font-size: 1rem;
+  }
+  .section-2 .wrapper .right .overlay {
+    display: none;
+  }
+  .section-3{
+    padding: 6rem 0;
+  }
+  .section-3 .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .section-3 h3{
+    font-size: 2rem;
+  }
+  .section-3 p{
+    font-size: 1.1rem;
+  }
+  .section-3 .container button {
+    align-self: center;
+  }
+}
