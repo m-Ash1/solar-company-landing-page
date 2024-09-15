@@ -233,7 +233,7 @@ nav .cta .number {
 /* Section 3 */
 
 .section-3 {
-  background-image: url("/images/bg-section3.png");
+  background-image: url("./images/bg-section3.png");
   background-size: cover;
   padding: 10rem 0;
 }
