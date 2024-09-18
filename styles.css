@@ -45,7 +45,9 @@ button.secondary {
   background-color: var(--accent-color);
   color: #101828;
 }
-
+.cta {
+  color: var(--side-text);
+}
 .container {
   padding: 0 1rem;
   max-width: 1570px;
