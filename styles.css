@@ -113,10 +113,10 @@ nav .cta .number {
 
 /** Section 1 */
 .section-1 {
-  background-image: url("./images/solar-panels-meadow\ 1.png");
+  background-image: url("./images/solar-panels-meadow\ 1.webp");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 6rem 1rem;
+  padding: 6rem 1rem 12rem;
 }
 
 .section-1 .container {
@@ -236,7 +236,7 @@ nav .cta .number {
 /* Section 3 */
 
 .section-3 {
-  background-image: url("./images/bg-section3.png");
+  background-image: url("./images/bg-section3.webp");
   background-size: cover;
   padding: 10rem 1rem;
 }
@@ -322,7 +322,7 @@ nav .cta .number {
 /** Section 5 */
 .section-5 {
   padding: 6rem 1rem;
-  background-image: url("./images/bg-section4.png");
+  background-image: url("./images/bg-section4.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
